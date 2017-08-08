@@ -14,4 +14,4 @@ function infoStr(str) {
 }
 
 
-document.write(infoStr("HOLA"));
+document.write(infoStr("HOLa"));
