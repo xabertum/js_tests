@@ -4,3 +4,10 @@
     color: mediumvioletred;
     line-height: 2em;
 }
+
+.maxWidth {
+    max-width: 500px;
+    margin: 0 auto;
+
+
+}
