@@ -9,5 +9,11 @@ function persona (nombre, edad, altura) {
 
 var persona1 = new persona("David", 21, 1.88);
 
-document.write (persona1.nombre);
+document.write (persona1.edad);
+
+persona1.changeEdad(25);
+
+document.write (persona1.edad);
+
+
 
