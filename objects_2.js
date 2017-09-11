@@ -11,5 +11,5 @@ function bornYear () {
 
 var coche1 = new coche ("Seat", "Altea", 2009, 2007);
 
-document.write(coche1.year());
+document.write(coche1.marca);
 
