@@ -1,10 +1,15 @@
-function coche (marca, modelo, edad) {
+function coche (marca, modelo, edad, year) {
     this.marca = marca;
-    this.modelo =¨modelo;
+    this.modelo = modelo;
     this.edad = edad;
+    this.year = bornYear;
 }
 
+function bornYear () {
+    return 2017 - this.edad;
+}
 
-var coche1 = new coche ("Seat", "Altea", 2007);
-document.write (2017 - coche1.edad);
+var coche1 = new coche ("Seat", "Altea", 2009, 2007);
+
+document.write(coche1.year());
 
