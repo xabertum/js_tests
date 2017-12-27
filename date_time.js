@@ -3,6 +3,7 @@ window.onload = insertDateTime;
 
 //insert the date & time
 function insertDateTime() {
+
     var oNow = new Date();
     var sDateTime = oNow.toLocaleString();
     var oTarget = document.getElementById('output');
