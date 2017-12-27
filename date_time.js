@@ -21,4 +21,8 @@ function insertDateTime() {
 
     //insert the new text into the span
     oTarget.appendChild(oNewText);
+
+    document.title = "TEST";
+    var oDonation = document.getElementById('donation');
+    if (oDonation) oDonation.value = "$2.00";
 }
