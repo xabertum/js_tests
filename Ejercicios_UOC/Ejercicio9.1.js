@@ -1,5 +1,5 @@
 var sFrase = prompt("introduce una frase...");
-var sChar = prompt("Caracter a buscar: ");
+var sChar = /[aeiou]/;
 
 function count(main_str, sub_str) {
 
