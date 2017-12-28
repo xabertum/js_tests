@@ -24,5 +24,5 @@ function insertDateTime() {
 
     document.title = "TEST";
     var oDonation = document.getElementById('donation');
-    if (oDonation) oDonation.value = "$2.00";
+    if (oDonation.value.length == 0) oDonation.value = "$2.00";
 }
