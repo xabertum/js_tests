@@ -7,4 +7,4 @@ function count(main_str, sub_str) {
     return (main_str.match(new RegExp(subStr, 'gi')) || []).length;
 }
 
-document.write(count(sFrase, 'a'));
+document.write(count(sFrase, ''));
